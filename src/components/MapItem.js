@@ -11,7 +11,8 @@ function MapItem(props){
         padding: 15
     }
 
-    const GoogleMapAPIKey = "AIzaSyDVet6ab01LInHYFG2xCQfRSkVfIDR1tOQ"
+    const GoogleMapAPIKey = "SAMPLE_KEY"
+    
     const containerStyle = {
         width: '400px',
         height: '400px'
