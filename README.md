@@ -1,7 +1,11 @@
 ### Notes:
-The webapp by default will try to connect to `http://localhost:8000` but this behavior can be modifed by create a .env file and copy and paste the following 
+The original repo is in the school organization and is private, so I uploaded the local files here.
+
+The webapp by default will try to connect to `http://localhost:8000` but this behavior can be modified by create a .env file and copying and paste the following 
 
     REACT_APP_BACKEND_URL = "https://snack-in-a-van-back-end.herokuapp.com"
+
+note: This link is no longer running.
 
 
 ### sample test users
