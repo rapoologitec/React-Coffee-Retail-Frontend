@@ -1,0 +1,36 @@
+.vendorform{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px 40px;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+.vendorpage jumbotron{
+    background-color: white;
+    border: 2px solid #c5c2bf;
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.vendorpage jumbotron h1{
+    font-size: 1.4em;
+
+}
+
+.vendorpage jumbotron h2{
+    font-size: 1.2em;
+    display: flex;
+}
+

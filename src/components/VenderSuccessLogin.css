@@ -1,0 +1,9 @@
+.Form {
+    margin:10px;
+    max-width:500px
+}
+
+.button {
+    max-width: 500px;
+    text-align: center;
+}

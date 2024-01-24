@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+.food-menu{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(119, 76, 76);
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.card{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1) ;
+    margin:  15px;
+    color: transparent;
+    background-color: #b5aea9;
+    height: 450px;
+}
+
+.card-deck{
+    margin: 20px;
+    justify-content: center;
+}
+
+.card-img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    color: black;
+}
+
+.card-header{
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    font-size: 1.6em;
+}
+
+.card-details{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.card-price{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card-details-sub{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+.card-btn{
+    position: relative;
+    background-color: salmon;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10%;
+    width: 80px !important;
+    
+}
+
+.checkout{
+
+}
